@@ -1,0 +1,162 @@
+*{
+    margin: 10;
+    padding: 10;
+}
+
+.logo{
+    color: antiquewhite;
+}
+
+.bloque1{
+    background-color: rgb(66, 64, 64);
+    box-shadow: 50%;
+    opacity: 80%;
+    margin-top: 100px;
+    
+  }
+
+.fondo{
+    background-image: url(https://imagenesdepaisajes.org/wp-content/uploads/2016/07/Im%C3%A1genes-De-Paisajes-De-Mar-Para-Fondo-De-Pantalla-playa.jpg);
+    background-repeat: no-repeat;
+   
+  }
+
+ 
+
+  .header{
+    min-height: 100vh;
+    width: 100%;
+
+  }
+
+  .nav{
+   display: flex;
+   justify-content: flex-end;
+   padding: 8px 12px;
+   list-style: none;
+   position: relative;
+}
+
+.nav ul li a{
+    color: antiquewhite;
+    margin: 10px;
+    text-shadow: 18px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    min-height: 30vh;
+    align-content: space-between;
+    gap: 30px;
+}
+
+.box1{
+    background-color: black;
+    width: 600px;
+    align-self: stretch;
+    padding: 40px;
+    color: antiquewhite;
+    height: 200px;
+}
+
+.imagen{
+    max-width: 100px;
+    max-height: 100px;
+    
+    }
+    
+    .div-padre {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-image: url(https://th.bing.com/th/id/R.f659bf2a1f9b8177e3eab0f331576830?rik=V0B2Phn96yVsLA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-xO6lPMlKQnw%2fT0L8DJ_7thI%2fAAAAAAAAw_Q%2f4Km1oYihx2c%2fs1600%2fnaturaleza-fotos-de-plantas-verdes-----www.bancodeimagenesgratuitas.com-----06.jpg&ehk=2o0yOSDC%2bD0V6pIeXSQHKB78JZOEI9kxscMzI1HBk%2fM%3d&risl=&pid=ImgRaw&r=0);
+       }
+       
+       .div-hijo {
+           text-align: center;
+           margin: 25px;
+           width: 200px;
+           height: 250px;
+           background-color: rgb(0, 0, 0);
+       }
+    
+    .carta {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .piecarta{
+        margin-top: 50px ;
+        margin-bottom: 20px;
+    }
+    
+    .bajocarta ul {
+        display: flex;
+       justify-content: space-around;
+       padding: 8px 12px;
+       list-style: horizontal;
+       position: relative;
+       color: rgb(0, 0, 0);
+       margin: 10px;
+       text-shadow: 18px;
+       list-style: none;
+       font-size: large;
+    }
+    
+    .botondesayuno{
+        background-color: rgb(206, 156, 19);
+        padding: 40px;
+        margin: 80px;
+        font-size: larger;
+        color: antiquewhite;
+    }
+    
+    .formulario{
+        background:
+        url(restaurant-london-800x533.jpg) 
+        center/cover no-repeat; 
+        color: white;
+        text-align: center;
+        
+      
+    }
+    
+    
+        .formu1{
+        display: grid;
+        grid-template-columns: 420px 420px;
+        display: flex;
+        width: 90%;
+        margin: 30px;
+    }
+    
+    .reservar{
+        width: 800px;
+    }
+    
+    .listaespera{
+        width: 800px;
+    }
+    
+    .BLOG{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        color: black;
+        text-align: center;
+    }
+
+    .blog {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        background-color: white;
+        align-content: space-around;
+        flex-direction: row;
+        min-height: 75vh;
+      }
